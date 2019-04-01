@@ -4,7 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Social Network</title>
+
+  <!-- update the version number as needed -->
+  <!-- defer le dice al browser que no ejecute el script hasta que
+  haya terminado de cargar-->
+  <!-- Firebase App is always required and must be first -->
+  <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-app.js"></script>
+
+  <!-- Add additional services that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-firestore.js"></script>
+
+
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCFrj9HMQv3OFzFExAfgLU9XXoj7pduvwI",
+      authDomain: "social-network-17080.firebaseapp.com",
+      databaseURL: "https://social-network-17080.firebaseio.com",
+      projectId: "social-network-17080",
+      storageBucket: "social-network-17080.appspot.com",
+      messagingSenderId: "474045729416"
+    };
+    firebase.initializeApp(config);
+  </script>
+
 </head>
 <body>
   <ul>

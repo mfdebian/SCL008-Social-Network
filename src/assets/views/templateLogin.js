@@ -18,7 +18,7 @@ export const templateLogin = () => {
   const btn = containerLogin.querySelector('#login');
   // evento del botón que llama a la autentificación de google.
   btn.addEventListener('click', () => {
-    console.log(loginGoogle());
+    loginGoogle();
   })
   return containerLogin;
 }
